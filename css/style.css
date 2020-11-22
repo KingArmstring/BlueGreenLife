@@ -29,6 +29,8 @@
     background-color: #bbd5ff;
     padding-right: 5%;
     padding-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -76,14 +78,13 @@
 
 .dropdown-menue > li > a{
     text-decoration: none;
-    color: #337908;
+    color: #112703;
     margin: 20px 60px;
     display: block;
     font-size:23px ;
     font-weight: 900;
     text-align: center;
-    height: auto;
-    width:auto;   
+      
     background-color: #0062ff27;         
 }
 
