@@ -10,11 +10,16 @@
 }
 
 
-.header-box{
+/*.header-box{
     background-image: url(../images/lama.webp);
     background-size: cover;
     height: 100%;
     width: 100%;  
+}*/
+.header img{
+    height: 100%;
+    width: 100%;
+
 }
 
 .header{
@@ -29,6 +34,7 @@
     background-color: #bbd5ff;
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom:200px;
 }
 
 
@@ -59,33 +65,51 @@
     font-weight: bolder;   
 }
 
-.dropdown{
-    position: relative;
-    margin-right: 5%px;
-        
+
+
+
+
+
+
+.bar2{
+    height:70px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbd5ff;
+    
+    
+   
 }
 
 
-.dropdown-menue{
-    position: absolute;
+
+
+.header .nav2{
+    float: right;
+    list-style: none;
+    padding-top: 6px;
+    padding-right: 5%;
+    padding-left: 7%;
+    
+}
+
+.header .nav2 > li{
+    display: inline-block;
+}
+
+.header .nav2 > li > a{
     text-align: center;
-    list-style: none; 
-}
-
-
-
-.dropdown-menue > li > a{
     text-decoration: none;
-    color: #337908;
-    margin: 20px 60px;
+    color: green;
+    padding: 20px 60px;
     display: block;
-    font-size:23px ;
-    font-weight: 900;
-    text-align: center;
-    height: auto;
-    width:auto;   
-    background-color: #0062ff27;         
+    font-size:19px ;
+    font-weight: bolder;   
 }
+
+
+
 
 
 
