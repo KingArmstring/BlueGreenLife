@@ -18,13 +18,15 @@
 }
 
 .header{
-   padding-bottom: 400px;
+   padding-bottom: 500px;
 }
 
 .bar{
-    height: 70px;
+    height:70px;
     width: 100%;
-    background-color: #bbccd4;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbd5ff;
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -41,19 +43,54 @@
     float: right;
     list-style: none;
     padding-top: 6px;
+    
 }
 
-.header .nav li{
+.header .nav > li{
     display: inline-block;
 }
 
-.header .nav li a{
+.header .nav > li > a{
     text-decoration: none;
-    color: #1162e6;
-    padding: 20px 40px;
+    color: #286ddd;
+    padding: 20px 60px;
     display: block;
-    font-size:19px ;   
+    font-size:19px ;
+    font-weight: bolder;   
 }
+
+.dropdown{
+    position: relative;
+    margin-right: 5%px;
+        
+}
+
+
+.dropdown-menue{
+    position: absolute;
+    text-align: center;
+    list-style: none; 
+}
+
+
+
+.dropdown-menue > li > a{
+    text-decoration: none;
+    color: #337908;
+    margin: 20px 60px;
+    display: block;
+    font-size:23px ;
+    font-weight: 900;
+    text-align: center;
+    height: auto;
+    width:auto;   
+    background-color: #0062ff27;         
+}
+
+
+
+
+
                                      /*home section*/
 .sec {
    background-color:#DEE6EF;
